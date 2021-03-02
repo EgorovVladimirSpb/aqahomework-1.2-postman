@@ -19,7 +19,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalToObject("some data111"))
+                .body("data", equalToObject("some data"))
 
         ;
 
